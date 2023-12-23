@@ -4,4 +4,4 @@ namespace namespaceName;
 public interface className
 {
     ${0}
-}
+}   

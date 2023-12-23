@@ -1,0 +1,12 @@
+using Microsoft.AspNetCore.Mvc;
+
+namespace namespaceName;
+
+[ApiController]
+[Route("[controller]")]
+public class className : ControllerBase
+{
+    ${0}
+
+    public className() { }
+}

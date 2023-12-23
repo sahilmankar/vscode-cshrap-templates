@@ -24,7 +24,11 @@ export function activate(context: vscode.ExtensionContext) {
         }
         const namespcenamePromise = getNamespace(currentFolder);
         const selectedTemplate = await getSelectedTemplate();
-        const fileName = await getFileName();
+        let fileName = await getFileName();
+        if(selectedTemplate=="Controller"){
+          if(!fileName.endsWith("Controller" ))
+          fileName=fileName.concat("Controller")
+        }
         const namespcename = await namespcenamePromise;
         const templateContent = await getTemplateContent(selectedTemplate);
         const fileContent = getFileContent(namespcename,fileName,templateContent );
