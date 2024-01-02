@@ -4,6 +4,10 @@
 
 The C# Code Template Generator is a Visual Studio Code extension designed to streamline the process of creating boilerplate code for C# projects. It provides a set of templates for commonly used C# patterns, reducing the time and effort required to set up the initial structure of your code.
 
+
+https://github.com/sahilmankar/vscode-cshrap-templates/assets/110836726/188d8bdc-2156-4e72-92f1-7b52455781cf
+
+
 ## Features
 
 - Generate C# code templates for common patterns and structures.
